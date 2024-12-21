@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 60px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 90%;
+  padding-top: 250px;
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-color: #dee0e3;
+  outline: none;
+  border-style: solid;
+  padding: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.area {
+  margin-bottom: 15px;
+  border-color: #dee0e3;
+  outline: none;
+  border-style: solid;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.button {
+  width: 110px;
+  height: 30px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 0px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.horizon {
+  width: 90%;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  padding-bottom: -50px;
+}
+
+.count {
+  background-color: #0284c7;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 25px;
+  height: 30px;
+  padding: 8px;
+  padding-top: 3px;
+  margin: 10px;
+}
+
+.initial-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.unorder {
+  margin: -20px;
+  margin-left: 20px;
+  list-style-type: none;
+}
